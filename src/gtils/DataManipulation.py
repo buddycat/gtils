@@ -42,8 +42,8 @@ class DataManipulation:
         
         Input number, output is a date as a string (YYYY-MM-DD).'''
 
-        today = datetime.datetime.now()
-        num_days = datetime.timedelta(days = (number_of_days - 1))
+        today = datetime.now()
+        num_days = timedelta(days = (number_of_days - 1))
         desired_date = today - num_days
         
         return str(desired_date).split()[0]
