@@ -1,0 +1,15 @@
+[project]
+name = "gtils"
+version = "0.0.3"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "datetime",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/buddycat/gtils"
